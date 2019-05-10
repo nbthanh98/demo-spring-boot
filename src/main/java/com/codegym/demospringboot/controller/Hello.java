@@ -11,7 +11,7 @@ public class Hello {
     @GetMapping
     public ModelAndView sayHello(){
         ModelAndView modelAndView = new ModelAndView("hello");
-        modelAndView.addObject("name", "word");
+        modelAndView.addObject("name", "word!");
         return modelAndView;
     }
 }
